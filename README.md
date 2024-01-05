@@ -20,11 +20,15 @@ Conference: Association for the Advancement of Artificial Intelligence(AAAI), 20
 ## Installation
 
 ### Set up the environment
-'git clone https://github.com/HCVLab/HybridGait.git'
-'conda create -n HybridGait python=3.7'
-'conda activate HybridGait'
-'pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111  -f https://download.pytorch.org/whl/torch_stable.html'
-'cd HybridGait'
-'pip install -r requirement.txt'
+```bash
+
+git clone https://github.com/HCVLab/HybridGait.git
+conda create -n HybridGait python=3.7
+conda activate HybridGait
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111  -f https://download.pytorch.org/whl/torch_stable.html
+cd HybridGait
+pip install -r requirement.txt
+
+```
 
 
