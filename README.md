@@ -4,11 +4,13 @@
 
 <!-- ![Reconstructed Objects](path_to_images) -->
 
-HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations
+**Association for the Advancement of Artificial Intelligence(AAAI), 2024**
 
-Authors: Yilan Dong,Chunlin Yu,Ruiyang Ha,Ye Shi,Yuexin Ma,Lan Xu,Yanwei Fu,Jingya Wang
+**Authors: Yilan Dong,Chunlin Yu,Ruiyang Ha,Ye Shi,Yuexin Ma,Lan Xu,Yanwei Fu,Jingya Wang**
 
-Conference: AAAI 2024
+**Paper:** https://arxiv.org/abs/2401.00271
+
+<!-- Conference: AAAI 2024 -->
 
 <!-- This is the official repo for the implementation of HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations -->
 
