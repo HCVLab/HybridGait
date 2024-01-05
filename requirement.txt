@@ -1,0 +1,9 @@
+tqdm
+einops
+pyyaml
+tensorboard
+setuptools==59.5.0
+tabulate
+termcolor
+matplotlib
+opencv-python
