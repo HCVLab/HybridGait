@@ -38,6 +38,9 @@ pip install -r requirement.txt
 
 ```
 
+## Checkpoints
+Coming soon
+
 ## Running
 
 - **Training**
