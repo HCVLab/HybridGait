@@ -5,8 +5,9 @@
 <!-- ![Reconstructed Objects](path_to_images) -->
 
 HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations
+
 Authors: Yilan Dong,Chunlin Yu,Ruiyang Ha,Ye Shi,Yuexin Ma,Lan Xu,Yanwei Fu,Jingya Wang
-Conference: Association for the Advancement of Artificial Intelligence(AAAI), 2024
+Conference: AAAI 2024
 
 <!-- This is the official repo for the implementation of HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations -->
 
@@ -51,3 +52,11 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --m
 
 Cite as below if you find this repository is helpful to your project:
 
+```
+@article{dong2023hybridgait,
+  title={HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations},
+  author={Dong, Yilan and Yu, Chunlin and Ha, Ruiyang and Shi, Ye and Ma, Yuexin and Xu, Lan and Fu, Yanwei and Wang, Jingya},
+  journal={arXiv preprint arXiv:2401.00271},
+  year={2023}
+}
+```
