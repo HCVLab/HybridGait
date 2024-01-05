@@ -5,8 +5,13 @@
 <!-- ![Reconstructed Objects](path_to_images) -->
 
 HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations
+
 Authors: Yilan Dong,Chunlin Yu,Ruiyang Ha,Ye Shi,Yuexin Ma,Lan Xu,Yanwei Fu,Jingya Wang
+
+
 Conference: Association for the Advancement of Artificial Intelligence(AAAI), 2024
+
+This is the official repo for the implementation of HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations
 
 <!-- ## Updates
 
@@ -15,12 +20,13 @@ Conference: Association for the Advancement of Artificial Intelligence(AAAI), 20
 
 ## TODO List
 
-- [ ] Release the dataset.
+- [ ] Release the CCGait dataset.
+- [ ] Release the Rendered front view data.
 
 ## Installation
 
-### Set up the environment
-```bash
+<!-- ### Set up the environment -->
+```shell
 
 git clone https://github.com/HCVLab/HybridGait.git
 conda create -n HybridGait python=3.7
@@ -31,4 +37,20 @@ pip install -r requirement.txt
 
 ```
 
+## Running
+
+- **Training**
+```shell
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port 60496 lib/main.py --cfgs ./config/HybridGait_64pixel.yaml --phase train
+```
+
+- **Testing**
+```shell
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --master_port 37584 lib/main.py --cfgs ./config/HybridGait_64pixel.yaml --phase test
+```
+
+
+## Citation
+
+Cite as below if you find this repository is helpful to your project:
 
