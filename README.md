@@ -26,7 +26,7 @@ Existing gait recognition benchmarks mostly include minor clothing variations in
 
 Please fullfile the [aggrement](https://drive.google.com/file/d/1X7f7u_ddjadQllaTyTaRb6E0kw5uTwof/view?usp=drive_link) to get the CCGait Dataset. 
 
-You can download the Gait3D rendered front view silhouette(SMPL model) from [here](https://drive.google.com/drive/folders/13VmVJ-l_ybCu0sOmYXx0g5m_ANOUXIuH?usp=sharing)
+You can download the Gait3D rendered front view silhouette(SMPL model) from [here](https://drive.google.com/drive/folders/13VmVJ-l_ybCu0sOmYXx0g5m_ANOUXIuH?usp=sharing).
 
 ## TODO List
 
