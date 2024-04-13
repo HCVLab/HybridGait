@@ -48,7 +48,7 @@ pip install -r requirement.txt
 ```
 
 ## Checkpoints
-Download the checkpoint_knn_4 from [here] (https://drive.google.com/file/d/1uTnJa8ASqON00EM2v3Go0QX3TGIktRkC/view?usp=drive_link).
+Download the checkpoint_knn_4 from [here](https://drive.google.com/file/d/1uTnJa8ASqON00EM2v3Go0QX3TGIktRkC/view?usp=drive_link).
 
 ## Running
 
