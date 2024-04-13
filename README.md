@@ -22,10 +22,16 @@
 ## Abstract
 Existing gait recognition benchmarks mostly include minor clothing variations in the laboratory environments, but lack persistent changes in appearance over time and space. In this paper, we propose the first in-the-wild benchmark CCGait for cloth-changing gait recognition, which incorporates di- verse clothing changes, indoor and outdoor scenes, and multi- modal statistics over 92 days. To further address the cou- pling effect of clothing and viewpoint variations, we pro- pose a hybrid approach HybridGait that exploits both tem- poral dynamics and the projected 2D information of 3D hu- man meshes. Specifically, we introduce a Canonical Align- ment Spatial-Temporal Transformer (CA-STT) module to en- code human joint position-aware features, and fully exploit 3D dense priors via a Silhouette-guided Deformation with 3D-2D Appearance Projection (SilD) strategy. Our contri- butions are twofold: we provide a challenging benchmark CCGait that captures realistic appearance changes across an expanded and space, and we propose a hybrid frame- work HybridGait that outperforms prior works on CCGait and Gait3D benchmarks.
 
+## Dataset Download
+
+Please fullfile the [aggrement](https://drive.google.com/file/d/1X7f7u_ddjadQllaTyTaRb6E0kw5uTwof/view?usp=drive_link) to get the CCGait Dataset. 
+
+You can download the Gait3D rendered front view silhouette(SMPL model) from [here](https://drive.google.com/drive/folders/13VmVJ-l_ybCu0sOmYXx0g5m_ANOUXIuH?usp=sharing)
+
 ## TODO List
 
-- [ ] Release the CCGait dataset.
-- [ ] Release the Rendered front view data.
+- [x] Release the CCGait dataset.
+- [x] Release the Rendered front view data.
 
 ## Installation
 
